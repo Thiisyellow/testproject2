@@ -1,0 +1,88 @@
+*{    
+    color: #202454;  
+}
+.container{
+    position: absolute;
+    width: 1920px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+}
+.logo{    
+    position: absolute;    
+    left: 2.08%;
+    right: 91.82%;
+    top: 28.85%;
+    bottom: 27.88%;
+}
+
+.lang{
+    position: absolute;
+    left: 93.23%;
+    right: 2.08%;
+    top: 9.62%;
+    bottom: 71.15%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.text-lang{   
+    font-family: Roboto;   
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;    
+}
+
+.fr-1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+    position: absolute;
+    width: 115px;
+    height: 16px;
+    left: 251px;
+    top: 12px;
+}
+.text-fr-1{
+    font-family: Roboto;
+    color: #7B94B0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;    
+}
+
+.fr-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+    position: absolute;
+    width: 707px;
+    left: 250px;
+    top: 54.81%;
+    bottom: 25%;
+}
+.text-fr-2{    
+    font-family: Roboto;    
+    font-weight: bold;    
+    font-size: 18px;
+    line-height: 21px;   
+    margin: 0; 
+}
+
+.fr-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+    position: absolute;
+    width: 120px;
+    height: 32px;
+    right: 53px;
+    top: 51px;
+}

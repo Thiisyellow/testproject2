@@ -1,0 +1,249 @@
+.container_s{
+    position: absolute;
+   height: 472px;
+    left: 250px;
+    top: 204px;
+    
+}
+.slider{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1480px;
+    max-height: 800px;
+    
+}
+.slider_item_1 {
+    position: relative;    
+    width: 240px;
+    height: 440px;
+}
+.slider_item_2 {
+    position: relative;    
+    width: 240px;
+    height: 440px;
+    
+}
+.slider_item_3 {
+    position: relative;    
+    width: 240px;
+    height: 440px;
+    
+}
+.slider_item_4 {
+    position: relative;    
+    width: 240px;
+    height: 440px;
+    
+}
+.slider_item_5 {
+    position: relative;    
+    width: 240px;
+    height: 440px;
+    
+}
+.rectangle{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.labels1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px 3px;
+    background: #8D58E3;
+    border-radius: 3px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 16px;
+    z-index: 8; 
+    height: 14px;   
+}
+.labels2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px 3px;    
+    background: #E95471;
+    border-radius: 3px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 16px;
+    z-index: 7;
+    height: 14px;
+}
+.labels3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px 3px;
+    background: #3BC5AD;
+    border-radius: 3px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 16px;
+    z-index: 8; 
+    height: 14px;   
+}
+.item_1 .labels2{
+    margin-top: 16px;
+}
+.text-label{
+    position: static;   
+    font-size: 12px;
+    line-height: 14px;  
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;   
+    color: #FFFFFF;
+    margin: 0;
+}
+.like{
+    padding-left: 210px;
+    padding-top: 9px;
+    z-index: 12;
+    position: absolute;
+}
+.image img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    top: 30px;    
+}
+
+.info{    
+    margin-top: 276px;
+}
+.text-korm{
+    font-family: Roboto ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202454;
+    margin-bottom: 0;
+}
+.item_4 .text-korm{
+    height: 48px;
+}
+.rating{
+    margin-left: 0;
+    padding-left: 0;    
+    list-style-type:none;  
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: 14px;   
+}
+.rat{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.item_5 .rating{
+    margin-top: 0;
+}
+.rating li{
+      display: inline-block; 
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 15px;
+    height: 47px;
+    left: 0px;
+    top: 381px;
+    flex-wrap: wrap;
+    position: static;
+    width: 150px;
+    height: 23px;
+    left: 0px;
+    top: calc(50% - 23px/2 - 12px);
+    justify-content: space-between;
+}
+.item_1 .price{
+    width: 164px;
+}
+.pr-text1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 140%;
+    text-decoration-line: line-through;
+    color: #7B94B0;
+    margin: 0;
+    padding-right: 4px;
+}
+.pr-text2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #202454;
+}
+.res{
+    display: flex;
+    align-items: center;
+}
+.text-res{
+    font-family: Roboto;
+    color: #7B94B0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.add-to{
+    display: flex;   
+    align-items: center;   
+    height: 24px;
+    position: absolute;
+    right: 14px;
+}
+.add-to button{
+    border: none; 
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
